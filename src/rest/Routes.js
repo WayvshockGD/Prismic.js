@@ -9,7 +9,9 @@ module.exports = function(rest) {
     let obj = {
         get(endpoints, route) {
             if (["post", "get", "patch", "delete"].includes(route)) {
-                return (options) => {};
+                return (body) => {
+                    return rest.handler.make(route, routes.join("/"), body)
+                };
             };
 
             routes.push(route);

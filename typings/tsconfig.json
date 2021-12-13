@@ -1,8 +1,9 @@
 {
     "compilerOptions": {
         "strict": true,
-        "target": "ESNext",
+        "target": "ES2021",
         "module": "CommonJS",
         "strictPropertyInitialization": true,
+        "allowJs": true
     }
 }

@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "Discord node.js library, Writen in javascript.",
   "main": "./index.js",
+  "types": "./typings/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./test.js"
   },
   "keywords": [
     "Discord",
@@ -14,6 +15,7 @@
   "author": "Wayvshock",
   "license": "MIT",
   "dependencies": {
-    "got": "^12.0.0"
+    "got": "^11.8.3",
+    "ws": "^8.3.0"
   }
 }
