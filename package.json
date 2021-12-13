@@ -1,0 +1,19 @@
+{
+  "name": "prismic.js",
+  "version": "1.0.0",
+  "description": "Discord node.js library, Writen in javascript.",
+  "main": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Discord",
+    "Wrapper",
+    "API"
+  ],
+  "author": "Wayvshock",
+  "license": "MIT",
+  "dependencies": {
+    "got": "^12.0.0"
+  }
+}
